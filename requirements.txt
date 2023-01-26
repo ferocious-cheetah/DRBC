@@ -1,0 +1,7 @@
+tensorboard
+stable-baselines3
+gym = 0.22.0
+torch
+numpy
+scipy
+pyrallis
