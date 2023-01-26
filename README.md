@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 One note on the version of `gym`. Since we use pre-trained agents provided in [RL Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo), the package `stable-baselines3` is required. However, it uses `gym<=0.21.0` which may have some seeding issues. We recommend you first install `stable-baselines3` and then force install `gym==0.22.0`.
 
-Next, you need to properly register the perturbed Gym environments which are placed under the folder *envs*. A recommended way to do this: first, go the gym folder which you installed in your python *site-packages*; second, place hopper_perturbed.py, half_cheetah_perturbed.py, and walker2d_perturbed.py under gym/envs/mujoco; now, add the following to \__init__.py under gym/envs:
+Next, you need to properly register the perturbed Gym environments which are placed under the folder *envs*. A recommended way to do this: first, go the gym folder which you installed in your python *site-packages*; second, place *hopper_perturbed.py*, *half_cheetah_perturbed.py*, and *walker2d_perturbed.py* under *gym/envs/mujoco*; now, add the following to *__init__.py* under *gym/envs*:
 ```
 register(
     id="HopperPerturbed-v3",
