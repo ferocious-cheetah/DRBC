@@ -1,5 +1,5 @@
 # Provably Improving Behavioral Cloning with Distributionally Robust Optimization
-This is an anonymous code submission for ICML'23.
+This is an **anonymous** code submission for ICML'23.
 
 Our method is tested on three OpenAI Gym MuJoCo continuous-action control tasks: `Hopper-v3`, `HalfCheetah-v3`, and `Walker2d-v3`. **Thus it is required that MuJoCo is properly installed prior to using this repo**.
 
