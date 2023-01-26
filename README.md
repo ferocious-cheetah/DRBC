@@ -56,9 +56,10 @@ python drobc.py --config_path = configs/hopper/drobc_hopper.yaml
 
 ### Evaluate policies
 Before evaluating the trained agents, you need to update the files *configs/hopper/eval_bc_{env}.yaml* and *configs/hopper/eval_bc_{env}.yaml*, and *env* should be among \{'hopper', 'halfcheetah', 'walker2d'\}. Please go the the *runs* folder to record the filename of your last runs. For example, `bc-hopper-1674234241` means it's BC trained on `Hopper-v3` when the time is `1674234241`. Using this as an example, then you need to update two things in the YAML file:
-
-1. `load_path`: runs/bc-hopper-1674234241
-2. `save_path`: whereever_you_want_it_to_be.json
+```
+load_path: runs/bc-hopper-1674234241
+save_path: whereever_you_want_it_to_be.json
+```
 
 Now please do
 ```
