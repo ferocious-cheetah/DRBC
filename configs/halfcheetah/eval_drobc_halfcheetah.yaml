@@ -1,0 +1,7 @@
+env_name: 'HalfCheetah-v3'
+seed: 2000
+eval_episodes: 10
+load_path: None
+save_path: None
+drobc: True
+model_name: best_model.pt

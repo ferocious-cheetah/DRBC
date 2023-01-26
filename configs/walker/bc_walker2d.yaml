@@ -1,0 +1,14 @@
+device: cuda
+env_name: Walker2d-v3
+seed: 2345
+eval_seed: 2000
+batch_size: 256
+max_timesteps: 2000000
+eval_freq: 10000
+eval_episodes: 5
+actor_lr: 1e-4
+expert_datasize: 6000
+save_model: True
+lr_decay: True
+lr_decay_freq: 10000
+lr_decay_gamma: 0.95

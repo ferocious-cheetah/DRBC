@@ -1,0 +1,16 @@
+device: cuda
+env_name: Hopper-v3
+seed: 1234
+eval_seed: 2000
+rho: 0.2
+batch_size: 256
+max_timesteps: 2000000
+eval_freq: 50000
+eval_episodes: 5
+actor_lr: 1e-4
+dual_update_freq: 5
+expert_datasize: 2000
+save_model: True
+lr_decay: True
+lr_decay_freq: 10000
+lr_decay_gamma: 0.9

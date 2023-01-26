@@ -1,0 +1,7 @@
+env_name: 'Walker2d-v3'
+seed: 2000
+eval_episodes: 10
+load_path: 'runs/drobc-walker2d-1674609310'
+save_path: 'results/drobc-walker2d-1674609310.json'
+drobc: True
+model_name: best_model.pt
