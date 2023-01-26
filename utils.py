@@ -3,6 +3,7 @@ import torch
 import gym
 import warnings
 import json
+import os
 
 def setup_result_container(env_name):
     res = {}
@@ -55,6 +56,8 @@ def setup_result_container(env_name):
     return res   
 
 def save_dict(save_path, data):
+    if not os.path.exists('./results/'): # Make sure folder is here
+        os.makedirs('./results/')
     with open(save_path, 'w') as f: 
         json.dump(data, f)
         
