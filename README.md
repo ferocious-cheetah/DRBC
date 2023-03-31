@@ -66,3 +66,9 @@ Now please do
 python eval_policy.py --config_path=configs/hopper/eval_bc_hopper.yaml
 ```
 The output file will be in the format of JSON. Please see `eval_policy.py` for the details of evaluation on the perturbed environments.
+
+### Table of Hyperparameter
+![Hyperparamters of DR-BC](hyperparam.png)
+### Table of OpenAI Gym MuJoCo Model Parameters
+![OpenAI Gym MuJoCo Model Parameters](model-param.png)
+
